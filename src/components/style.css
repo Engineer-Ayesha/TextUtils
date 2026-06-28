@@ -1,0 +1,247 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.navbar{
+    height:50px;
+    width:100%;
+    background-color:#f3f4f6;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    height:50px;
+    width:500px;
+    display:flex;
+    flex-direction: row;
+}
+#hamburger-icon{
+    display:none;
+}
+.app-name{
+    font-size: 25px;
+    padding:0px 0px 0px 15px;
+    font-weight: normal;
+    
+}
+.unorder{
+    list-style: none;
+}
+.list{
+    display: inline-block;
+    padding:3px 0px 0px 20px;
+}
+ .list a{
+    color:dimgray;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+.home-container{
+    height:fit-content;
+    width:1000px;
+    margin: 0px 0px 0px 100px;
+    text-align: left;
+}
+.home-head{
+    padding:0px 0px 0px 20px;
+}
+.home-text{
+    height:200px;
+    width:1000px;
+    margin:0px 0px 0px 20px;
+    border:1px solid dimgrey;
+    border-radius: 5px;
+}
+.button-container{
+    display:flex;
+    flex-direction: row;
+    height:60px;
+    width:900px;
+}
+.buttons{
+    background-color: blue;
+    color:white;
+    height:40px;
+    width:100px;
+    margin:10px 0px 0px 30px;
+    border:none;
+    border-radius: 8px;
+}
+.summary-container{
+    display:flex;
+    flex-direction: column;
+    height:fit-content;
+    width:700px;
+    padding:10px 0px 0px 20px;
+}
+.preview-container{
+    display:flex;
+    flex-direction: column;
+    height:fit-content;
+    width:700px;
+    padding:0px 0px 0px 20px;
+    margin-top: 0px;
+}
+.about-container{
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#accordionExample{
+    height:240px;
+    width: 900px;
+    margin-top: 80px;
+}
+.accordion-button.light {
+  background-color: white !important;
+  color: black !important;
+}
+.accordion-button.dark {
+  background-color: #1f1f1f !important;
+  color: white !important;
+}
+.accordion-button::after {
+  filter: invert(1);
+}
+@media (max-width:480px){
+    .navbar{
+        width: 450px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .links{
+        width:250px;
+    }
+    .app-name{
+        font-size: 18px;
+        font-weight: bold;
+        padding-left: 5px;
+    }
+    .list{
+        padding:0px 0px 0px 10px;
+    }
+    .list a{
+        font-size: 13px;
+    }
+    #color-modes{
+        display:none;
+    }
+    #hamburger-icon{
+        display: block;
+        font-size: 20px;
+        margin-right: 80px;
+    }
+    .modes-div{
+        display: none;
+    }
+    #links-div{
+        width:250px;
+    }
+    .hamburger-class{
+        max-height:200px;
+        max-width: 480px;
+        text-align: left;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #f3f4f6;
+    }
+    .home-container{
+        max-width: 480px;
+        text-align: left;
+        margin-left: 0px;
+    }
+    .text-container{
+        max-width: 480px;
+        display: flex;
+        justify-content: start;
+    }
+    .home-text{
+    width:320px;
+    align-self: center;
+    }
+    .button-container{
+        max-width: 320px;
+        flex-wrap:wrap ;
+        height:fit-content;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .summary-container{
+        margin-top: 10px;
+    }
+}
+@media (min-width:600px) and (max-width:991px){
+    .navbar{
+        width: 450px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .links{
+        width:250px;
+    }
+    .app-name{
+        font-size: 18px;
+        font-weight: bold;
+        padding-left: 5px;
+    }
+    .list{
+        padding:0px 0px 0px 10px;
+    }
+    .list a{
+        font-size: 13px;
+    }
+    #color-modes{
+        display:none;
+    }
+    #hamburger-icon{
+        display: block;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .modes-div{
+        display: none;
+    }
+    #links-div{
+        width:250px;
+    }
+    .hamburger-class{
+        max-height:200px;
+        max-width: 480px;
+        text-align: left;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #f3f4f6;
+    }
+    .home-container{
+        max-width: 480px;
+        text-align: left;
+        margin-left: 0px;
+    }
+    .text-container{
+        max-width: 480px;
+        display: flex;
+        justify-content: start;
+    }
+    .home-text{
+    width:320px;
+    align-self: center;
+    }
+    .button-container{
+        max-width: 320px;
+        flex-wrap:wrap ;
+        height:fit-content;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .summary-container{
+        margin-top: 10px;
+    }
+}
+.modes-div{
+    display:none;
+}
+
